@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  color: white;
+  color: rgb(225, 239, 230);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -181,7 +181,7 @@ a {
 /* header section */
 
 a {
-  color: white;
+  color: rgb(225, 239, 230);
 }
 header {
   width: 100%;
@@ -361,7 +361,7 @@ footer {
 }
 
 header > div {
-  background-color: rgba(0, 0, 0, 0.472);
+  background-color: rgb(0, 4, 17, 0.8);
 }
 
 header > div {
@@ -372,7 +372,7 @@ header > div {
 }
 
 header nav div {
-  color: white;
+  color: rgb(225, 239, 230);
 }
 
 .nav__link {
@@ -423,7 +423,7 @@ h2 {
 }
 
 footer {
-  background-color: #000;
+  background-color: rgb(0, 4, 17);
   display: flex;
   justify-content: space-between;
   padding-bottom: 2.4rem;
