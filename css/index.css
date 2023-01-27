@@ -469,3 +469,15 @@ form {
 .column nav {
   padding-left: 4.8rem;
 }
+@media (max-width: 480px) {
+  .title {
+    font-size: 4.8rem;
+    padding: 0 2.4rem;
+    text-align: center;
+  }
+
+  header nav {
+    flex-flow: column;
+    align-items: center;
+  }
+}
