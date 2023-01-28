@@ -1,50 +1,140 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+html {
+    font-size: 62.5%;
+    color: rgb(225, 239, 230);
+}
+
+a {
+    color: rgb(225, 239, 230);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -58,11 +148,19 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, i {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i {
     text-decoration: none;
 }
 
@@ -82,7 +180,8 @@ h4 {
     font-size: 4rem;
 }
 
-p, a {
+p,
+a {
     font-size: 3rem;
 }
 
@@ -90,10 +189,63 @@ p, a {
 header {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/menu-header.jpg');
+    background-image: url("../img/menu-header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.social--container {
+    width: 35px;
+    height: 35px;
+}
+
+.social--container svg {
+    width: 100%;
+}
+
+header > div {
+    background-color: rgb(0, 4, 17, 0.8);
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header nav div {
+    color: rgb(225, 239, 230);
+}
+
+.nav__link {
+    font-size: 3.2rem;
+}
+
+.title {
+    font-size: 7.2rem;
+}
+
+h1 {
+    display: flex;
+    padding-top: 4.8rem;
+    margin-bottom: 2.4rem;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 2.4rem;
+}
+
+.socials {
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-bottom: 2.4rem;
 }
 
 /* spacer */
@@ -113,7 +265,7 @@ header {
 .menu {
     width: 100%;
     height: auto;
-    background-image: url('../img/staff-bartender.jpg');
+    background-image: url("../img/staff-bartender.jpg");
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
@@ -126,6 +278,54 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+}
+
+footer {
+    background-color: rgb(0, 4, 17);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.4rem;
+}
+
+footer .column:first-child {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.column input {
+    font-size: 2.4rem;
+    width: 74%;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+button {
+    width: 29%;
+    font-size: 2.4rem;
+}
+
+form {
+    display: flex;
+    padding-left: 2.4rem;
+}
+
+.column:nth-child(2),
+.column nav a {
+    width: 70%;
+    font-size: 2.4rem;
+}
+
+.copy {
+    text-align: right;
+    padding-right: 10rem;
+    font-size: 1.6rem;
+}
+
+.column nav {
+    padding-left: 4.8rem;
 }
 
 /* mobile media query */
