@@ -1,6 +1,6 @@
 html {
-  font-size: 62.5%;
-  color: rgb(225, 239, 230);
+    font-size: 62.5%;
+    color: rgb(225, 239, 230);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -89,12 +89,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -108,45 +108,45 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 body {
-  line-height: 1;
+    line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  max-width: 1920px;
-  min-width: 428px;
-  width: 100%;
-  font-size: 62.5%;
+    max-width: 1920px;
+    min-width: 428px;
+    width: 100%;
+    font-size: 62.5%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 
 h1,
@@ -158,362 +158,362 @@ h6,
 p,
 a,
 i {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1 {
-  font-size: 7.5rem;
+    font-size: 7.5rem;
 }
 
 h2 {
-  font-size: 6rem;
+    font-size: 6rem;
 }
 
 h3 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 p,
 a {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 /* header section */
 
 a {
-  color: rgb(225, 239, 230);
+    color: rgb(225, 239, 230);
 }
 header {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/home-header.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/home-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* spacers */
 .spacer {
-  width: 100%;
-  height: 10vh;
-  background-color: rgb(0, 4, 17);
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 4, 17);
 }
 .spacer-sm {
-  width: 100%;
-  height: 10vh;
-  background-color: rgb(0, 4, 17);
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 4, 17);
 }
 
 /* gallery section */
 .gallery {
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  background-color: rgb(0, 4, 17);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(0, 4, 17);
 }
 
 /* about us section */
 .about {
-  width: 100%;
-  height: 75vh;
-  text-align: center;
-  background-image: url("../img/staff-cooks.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    background-image: url("../img/staff-cooks.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .about-container {
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(0, 4, 17, 0.8);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 4, 17, 0.8);
 }
 
 .about h2 {
-  width: 100%;
+    width: 100%;
 }
 
 .about-container .text {
-  width: 50%;
+    width: 50%;
 }
 
 /* contact us section */
 .contact {
-  text-align: center;
-  background-image: url("../img/jumbo-restaurant.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgb(0, 4, 17);
+    text-align: center;
+    background-image: url("../img/jumbo-restaurant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 4, 17);
 }
 
 .contact-container {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 4, 17, 0.8);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 4, 17, 0.8);
 }
 
 .contact h2 {
-  padding-top: 5vh;
+    padding-top: 5vh;
 }
 
 .contact h3 {
-  padding-top: 2.5vh;
+    padding-top: 2.5vh;
 }
 
 .contact p {
-  padding: 0.5vh 0;
+    padding: 0.5vh 0;
 }
 
 .info {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .address {
-  width: 25%;
+    width: 25%;
 }
 
 .hours {
-  width: 25%;
-  padding-bottom: 2.5vh;
+    width: 25%;
+    padding-bottom: 2.5vh;
 }
 
 .contacts {
-  width: 25%;
+    width: 25%;
 }
 
 /* footer section */
 footer {
-  width: 100%;
-  padding-top: 2.5vh;
-  font-size: 3rem;
+    width: 100%;
+    padding-top: 2.5vh;
+    font-size: 3rem;
 }
 
 /* mobile media query */
 @media (max-width: 428px) {
-  /* header section */
+    /* header section */
 
-  /* gallery section */
-  .gallery {
-    height: auto;
-  }
+    /* gallery section */
+    .gallery {
+        height: auto;
+    }
 
-  /* about us section */
+    /* about us section */
 
-  .about {
-    height: 200vh;
-  }
+    .about {
+        height: 200vh;
+    }
 
-  .about h2 {
-    width: 100%;
-    padding-top: 5vh;
-  }
+    .about h2 {
+        width: 100%;
+        padding-top: 5vh;
+    }
 
-  .about-container .text {
-    width: 85%;
-  }
+    .about-container .text {
+        width: 85%;
+    }
 
-  /* contact us section */
-  .contact h3 {
-    padding-top: 2.5vh;
-  }
+    /* contact us section */
+    .contact h3 {
+        padding-top: 2.5vh;
+    }
 
-  .info {
-    flex-wrap: wrap;
-  }
+    .info {
+        flex-wrap: wrap;
+    }
 
-  .address {
-    width: 100%;
-    padding-bottom: 2.5vh;
-  }
+    .address {
+        width: 100%;
+        padding-bottom: 2.5vh;
+    }
 
-  .hours {
-    width: 100%;
-  }
+    .hours {
+        width: 100%;
+    }
 
-  .contacts {
-    width: 100%;
-    padding-bottom: 2.5vh;
-  }
+    .contacts {
+        width: 100%;
+        padding-bottom: 2.5vh;
+    }
 
-  /* footer section */
-  footer {
-    height: auto;
-    padding-top: 2.5vh;
-    font-size: 2rem;
-  }
+    /* footer section */
+    footer {
+        height: auto;
+        padding-top: 2.5vh;
+        font-size: 2rem;
+    }
 }
 
 /* my css */
 
 .social--container {
-  width: 35px;
-  height: 35px;
+    width: 35px;
+    height: 35px;
 }
 
 .social--container svg {
-  width: 100%;
+    width: 100%;
 }
 
 header > div {
-  background-color: rgb(0, 4, 17, 0.8);
+    background-color: rgb(0, 4, 17, 0.8);
 }
 
 header > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header nav div {
-  color: rgb(225, 239, 230);
+    color: rgb(225, 239, 230);
 }
 
 .nav__link {
-  font-size: 3.2rem;
+    font-size: 3.2rem;
 }
 
 .title {
-  font-size: 7.2rem;
+    font-size: 7.2rem;
 }
 
 h1 {
-  display: flex;
-  padding-top: 4.8rem;
-  margin-bottom: 2.4rem;
+    display: flex;
+    padding-top: 4.8rem;
+    margin-bottom: 2.4rem;
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  margin-bottom: 2.4rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 2.4rem;
 }
 
 .socials {
-  display: flex;
-  width: 33%;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  padding-bottom: 2.4rem;
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-bottom: 2.4rem;
 }
 
 h2 {
-  padding: 4rem 0 2.4rem 0;
+    padding: 4rem 0 2.4rem 0;
 }
 
 .food__container--flex {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 
-  flex-flow: wrap;
-  width: 75%;
-  margin: 0 auto;
+    flex-flow: wrap;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .food__container--flex img {
-  display: inline-block;
-  width: calc(100% / 3 - 3%);
+    display: inline-block;
+    width: calc(100% / 3 - 3%);
 }
 
 footer {
-  background-color: rgb(0, 4, 17);
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 2.4rem;
+    background-color: rgb(0, 4, 17);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.4rem;
 }
 
 footer .column:first-child {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
 }
 
 .column input {
-  font-size: 2.4rem;
-  width: 74%;
+    font-size: 2.4rem;
+    width: 74%;
 }
 
 .sign-up {
-  text-align: center;
+    text-align: center;
 }
 
 button {
-  width: 29%;
-  font-size: 2.4rem;
+    width: 29%;
+    font-size: 2.4rem;
 }
 
 form {
-  display: flex;
-  padding-left: 2.4rem;
+    display: flex;
+    padding-left: 2.4rem;
 }
 
 .column:nth-child(2),
 .column nav a {
-  width: 70%;
-  font-size: 2.4rem;
+    width: 70%;
+    font-size: 2.4rem;
 }
 
 .copy {
-  text-align: right;
-  padding-right: 10rem;
-  font-size: 1.6rem;
+    text-align: right;
+    padding-right: 10rem;
+    font-size: 1.6rem;
 }
 
 .column nav {
-  padding-left: 4.8rem;
+    padding-left: 4.8rem;
 }
 @media (max-width: 480px) {
-  .title {
-    font-size: 4.8rem;
-    padding: 0 2.4rem;
-    text-align: center;
-  }
+    .title {
+        font-size: 4.8rem;
+        padding: 0 2.4rem;
+        text-align: center;
+    }
 
-  nav {
-    flex-flow: column;
-    align-items: center;
-  }
+    nav {
+        flex-flow: column;
+        align-items: center;
+    }
 
-  .food__container--flex img {
-    width: 100%;
-    padding-bottom: 4.8rem;
-  }
+    .food__container--flex img {
+        width: 100%;
+        padding-bottom: 4.8rem;
+    }
 
-  footer {
-    flex-flow: column;
-    align-items: center;
-  }
+    footer {
+        flex-flow: column;
+        align-items: center;
+    }
 
-  footer .column:first-child {
-    width: 100%;
-  }
+    footer .column:first-child {
+        width: 100%;
+    }
 
-  form {
-    flex-direction: column;
-  }
-  button,
-  .column input {
-    width: 100%;
-  }
+    form {
+        flex-direction: column;
+    }
+    button,
+    .column input {
+        width: 100%;
+    }
 
-  form {
-    padding-right: 2.4rem;
-    margin-bottom: 2.4rem;
-  }
+    form {
+        padding-right: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
 
-  nav > * {
-    margin-bottom: 1.2rem;
-  }
+    nav > * {
+        margin-bottom: 1.2rem;
+    }
 
-  .copy {
-    padding: 0;
-    text-align: center;
-  }
+    .copy {
+        padding: 0;
+        text-align: center;
+    }
 }
