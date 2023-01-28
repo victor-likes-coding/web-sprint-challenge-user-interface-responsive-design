@@ -478,16 +478,20 @@ form {
     padding-left: 4.8rem;
     display: flex;
 }
-@media (max-width: 480px) {
+@media (max-width: 428px) {
     .title {
         font-size: 4.8rem;
         padding: 0 2.4rem;
         text-align: center;
     }
 
-    nav {
+    header nav div {
         flex-flow: column;
         align-items: center;
+    }
+
+    .socials {
+        flex-flow: row;
     }
 
     .food__container--flex img {
@@ -498,6 +502,16 @@ form {
     footer {
         flex-flow: column;
         align-items: center;
+    }
+
+    .column:nth-child(2) nav {
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column nav {
+        padding-left: 0;
     }
 
     footer .column:first-child {
