@@ -360,19 +360,24 @@ footer {
     width: 100%;
 }
 
-header > div {
-    background-color: rgb(0, 4, 17, 0.8);
-}
-
-header > div {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
+.backdrop {
+    background-color: rgb(0, 4, 17, 0.8);
+    width: 100%;
+}
+
 header nav div {
     color: rgb(225, 239, 230);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 2.4rem;
 }
 
 .nav__link {
@@ -387,13 +392,11 @@ h1 {
     display: flex;
     padding-top: 4.8rem;
     margin-bottom: 2.4rem;
+    justify-content: center;
 }
 
 nav {
-    display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    margin-bottom: 2.4rem;
 }
 
 .socials {
@@ -402,6 +405,11 @@ nav {
     margin: 0 auto;
     justify-content: space-evenly;
     padding-bottom: 2.4rem;
+}
+
+i {
+    display: inline-block;
+    font-size: 3.2rem;
 }
 
 h2 {
@@ -468,6 +476,7 @@ form {
 
 .column nav {
     padding-left: 4.8rem;
+    display: flex;
 }
 @media (max-width: 480px) {
     .title {
